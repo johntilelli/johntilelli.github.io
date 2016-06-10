@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  "My first project with python"
+title:  "Python Project, part 1"
 date:   2016-05-24 00:34:00 -0700
 categories: blog update
 ---
-For my first post, I will be walking through the beginnings of a simple data analysis project. Path of the project:
-1. Use Python to call the NPR API and return a JSON file.
-2. Explore the API, find a good data set, and parse the data in a readable format.
-3. Convert the JSON file into a clean CSV file
-4. Use python to generate a simple graph.
-5. Make the graph interactive on this website. 
 
-I'll walk through my experience with part 1 of my project. Here is the code I used to pull a JSON file from the NPR website.
+Path of the project:
+1. Call the NPR API and create a JSON file.
+2. Explore the API, find a good data set, and parse the data in a readable format.
+3. Convert the JSON file into a clean CSV file.
+4. Get around the limits of the NPR API (namely, maximum of 20 posts returned) by iterating through date in a for loop.
+5. Make a simple interactive graph using Bokeh library and import to blog. 
+
+Part1: Call the NPR API and create a JSON file.
 {% highlight python %}
 from urllib2 import urlopen
 from json import load, dumps
