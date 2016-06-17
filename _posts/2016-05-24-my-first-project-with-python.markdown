@@ -29,3 +29,5 @@ with open('output3.json', 'w') as f:
 f.close()
 
 {% endhighlight %}
+
+{% include tableau1.html %}
