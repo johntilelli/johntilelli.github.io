@@ -4,7 +4,11 @@ title:  "NPR Coverage of Presidential Candidates"
 date:   2016-05-24 00:34:00 -0700
 categories: blog update
 ---
+
+Using Python, call the NPR API, load the JSON output, and parse into a CSV file to load into Tableau.
+
 {% highlight python %}
+
 from urllib2 import urlopen
 from json import load, dumps
 import csv
@@ -59,6 +63,7 @@ for single_date in daterange( start_date, end_date):
 	except:
 	    print date + " Error... closing file"
 	    outputFile.close()
+	    
 {% endhighlight %}
 
 {% include tableau1.html %}
