@@ -7,6 +7,8 @@ categories: blog update
 
 {% include tableau1.html %}
 
+
+
 Here is the Python code used to call the NPR API, load the JSON output, and parse into a CSV file to load into Tableau.
 
 {% highlight python %}
