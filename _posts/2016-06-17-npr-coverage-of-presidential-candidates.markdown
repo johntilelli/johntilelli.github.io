@@ -5,7 +5,9 @@ date:   2016-05-24 00:34:00 -0700
 categories: blog update
 ---
 
-Using Python, call the NPR API, load the JSON output, and parse into a CSV file to load into Tableau.
+{% include tableau1.html %}
+
+Here is the Python code used to call the NPR API, load the JSON output, and parse into a CSV file to load into Tableau.
 
 {% highlight python %}
 
@@ -66,4 +68,4 @@ for single_date in daterange( start_date, end_date):
 	    
 {% endhighlight %}
 
-{% include tableau1.html %}
+
