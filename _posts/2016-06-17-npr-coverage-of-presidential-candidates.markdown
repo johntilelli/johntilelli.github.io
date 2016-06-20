@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NPR Coverage of Presidential Candidates"
-date:   2016-05-24 00:34:00 -0700
+date:   2016-06-17 00:34:00 -0700
 categories: blog update
 ---
 
