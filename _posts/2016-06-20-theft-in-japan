@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "NPR Coverage of Presidential Candidates"
+date:   2016-05-24 00:34:00 -0700
+categories: blog update
+---
+
+This post is part of the MakeoverMonday challenge found here: http://vizwiz.blogspot.com/p/makeover-monday-challenges.html
+
+{% include tableau2.html %}
