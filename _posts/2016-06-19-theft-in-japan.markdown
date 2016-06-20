@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Theft in Japan"
-date:   2016-06-20 00:34:00 -0700
+date:   2016-06-19 00:34:00 -0700
 categories: blog update
 ---
 
