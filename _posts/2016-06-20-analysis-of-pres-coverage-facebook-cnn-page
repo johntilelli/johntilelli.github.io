@@ -5,13 +5,10 @@ date:   2016-06-20 00:34:00 -0700
 categories: blog update
 ---
 
-Inspired from python code to grab page and group post data from Facebook found [here](
+Inspired from python code to grab page and group post data from Facebook found (here)[https://github.com/minimaxir/facebook-page-post-scraper]
 
-{% include tableau3a.html %}
 
-{% include tableau3b.html %}
-
-{% include tableau3c.html %}
+{% include tableau3.html %}
 
 {% highlight python %}
 import urllib2
