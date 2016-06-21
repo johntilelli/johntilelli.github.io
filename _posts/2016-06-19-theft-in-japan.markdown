@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Theft in Japan"
+title:  "Makeover Monday Challenge - Week 25: Theft in Japan"
 date:   2016-06-19 00:34:00 -0700
 categories: blog update
 ---
