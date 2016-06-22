@@ -2,7 +2,7 @@ Source code for johntilelli.com
 
 Future blog posts:
 
-1a.Sentiment analysis - pull comment data from youtube[api ino](https://developers.google.com/youtube/v3/code_samples/python#create_and_manage_comments) to push to csv
+1a.Sentiment analysis - pull comment data from [youtube api](https://developers.google.com/youtube/v3/code_samples/python#create_and_manage_comments) to push to csv
 1b. python: pull apart each string on csv, lookup each word using [lexicon](http://mpqa.cs.pitt.edu/) and return sentiment.
 1c. load data in tableau
 
