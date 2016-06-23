@@ -7,6 +7,9 @@ Future blog posts:
 1c. load data in tableau
 
 [other lexicons](http://stackoverflow.com/questions/4188706/sentiment-analysis-dictionaries)
+
 [natural language processing toolkit python](http://www.nltk.org/)
+
+[nltk tutorial](https://pythonprogramming.net/tokenizing-words-sentences-nltk-tutorial/)
 
 2.OSHA workplace deaths:[link](https://www.reddit.com/r/datasets/comments/4hwa35/osha_publishes_a_csv_of_workplace_deaths_with_a/?)
