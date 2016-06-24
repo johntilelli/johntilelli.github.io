@@ -12,4 +12,6 @@ Future blog posts:
 
 [nltk tutorial](https://pythonprogramming.net/tokenizing-words-sentences-nltk-tutorial/)
 
+[blog post, sentiment analysis of twitter comments](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
+
 2.OSHA workplace deaths:[link](https://www.reddit.com/r/datasets/comments/4hwa35/osha_publishes_a_csv_of_workplace_deaths_with_a/?)
