@@ -17,3 +17,5 @@ Future blog posts:
 2.OSHA workplace deaths:[link](https://www.reddit.com/r/datasets/comments/4hwa35/osha_publishes_a_csv_of_workplace_deaths_with_a/?)
 
 [crime in seattle](www.ucrdatatool.gov)
+
+Weather data - a year in seattle
