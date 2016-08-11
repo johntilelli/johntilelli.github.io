@@ -6,7 +6,6 @@ categories: blog update
 ---
 
 {% highlight r %}
-
 require(reshape2)
 require(readxl)
 require(dplyr)
@@ -29,7 +28,4 @@ olympics_melted = reshape2::melt(olympics_temp, id.vars=c("Edition","Rank","Coun
 
 #convert to data frame, issue in dplyr requires this
 write.table(olympics_melted, "Olympics Medal Table - Melted.csv", sep=",", row.names=FALSE)
-
-
-
 {% endhighlight %}
