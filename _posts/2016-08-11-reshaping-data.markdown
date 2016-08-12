@@ -5,6 +5,7 @@ date:   2016-08-11 00:34:00 -0700
 categories: blog update
 ---
 
+Draft of post
 
      require(reshape2)
      require(readxl)
@@ -14,7 +15,8 @@ categories: blog update
      olympics = readxl::read_excel("Olympic Medal Table.xlsx",sheet = 1)
      
      #remove total column
-     olympics_temp = subset(olympics, select = c("Edition","Rank","Country","Country Group","Gold","Silver","Bronze"))
+     olympics_temp = subset(olympics
+          , select = c("Edition","Rank","Country","Country Group","Gold","Silver","Bronze"))
      
      #melt data
      olympics_melted = reshape2::melt(olympics_temp, id.vars=c("Edition","Rank","Country","Country Group")
