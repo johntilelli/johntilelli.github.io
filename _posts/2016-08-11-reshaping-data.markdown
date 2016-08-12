@@ -5,7 +5,6 @@ date:   2016-08-11 00:34:00 -0700
 categories: blog update
 ---
 
-{% highlight r %}
 
      require(reshape2)
      require(readxl)
@@ -24,4 +23,4 @@ categories: blog update
      
      #convert to data frame, issue in dplyr requires this
      write.table(olympics_melted, "Olympics Medal Table - Melted.csv", sep=",", row.names=FALSE)
-{% endhighlight %}
+
