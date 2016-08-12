@@ -7,12 +7,12 @@ categories: blog update
 
 Draft of post
 
-     require(reshape2)
-     require(readxl)
-     require(dplyr)
 {% highlight r %}
 <p>
-#create dataframe of olympics data
+require(reshape2)
+require(readxl)
+require(dplyr)
+#create dataframe
 olympics = readxl::read_excel("Olympic Medal Table.xlsx",sheet = 1)
 
 #remove total column
