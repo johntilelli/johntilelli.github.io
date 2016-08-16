@@ -28,7 +28,7 @@ One thing I noticed week to week on Makeover Monday is that the dataset provided
 | 1896    | 11   | Mixed team    | Mixed team    | 1    | 1      | 1      | 3     |
 
 <br>
-<p> Using the following code I reshaped my data to be tall: </p>
+<p> Using the following R code I reshaped my data: </p>
 
 {% highlight r %}
 
@@ -98,6 +98,8 @@ Here is the resulting "tall" dataset. Two columns were added, variable and amoun
 <p>
 Here is my visualization below using the "tall" dataset. It shows 3 visualizations on the same worksheet, two barcharts and a stacked % of total bar chart, with a complex sorting. It wasn't my best work, especially in terms of design, but it shows how much easier tall data is to work with in Tableau. It was incredibly easy to create the table calc - I simply added the "amount" pill to the column pane and created a quick table calculation, percent of total, then added "variable" to the color on the marks pane. I was unable create this same worksheet using the original data. If anyone knows of a way to replicate this in Tableau with the original data please reply/send me a DM on [twitter](https://twitter.com/JohnTilelli). 
 </p>
+
+<br>
 
 ![Picture of Week 32 Makeover Monday](https://github.com/johntilelli/johntilelli.github.io/blob/master/mmwk32.png)
 
