@@ -12,6 +12,7 @@ This short post shows the process of reshaping data from wide to tall, and the m
 One thing I noticed week to week on Makeover Monday is that the dataset provided was often wide instead of long. For example, take a look at the dataset from Week 32:  [All-Time Summer Olympic Medal Standings](http://www.nbcolympics.com/medals). Each line of data represents the number of medals each country earned each year they participated. There are 8 columns in the dataset. In my mind, the first 4 columns are attributes (or demensions) of the last 4 columns, which I consider metrics (or measures). 
 </p>
 <br>
+
 | Edition | Rank | Country       | Country Group | Gold | Silver | Bronze | Total |
 |---------|------|---------------|---------------|------|--------|--------|-------|
 | 1896    | 1    | United States | United States | 11   | 7      | 2      | 20    |
@@ -56,6 +57,7 @@ write.table(olympics_melted, "Olympics Medal Table - Melted.csv", sep=",", row.n
 Here is the resulting "tall" dataset. Two columns were added, variable and amount, that replace the last four columns in the original dataset. The variable column is now used as an attribute to describe the amount gold, silver, or bronze medals awareded for each country for each year they participated. 
 </p>
 <br>
+
 | Edition | Rank | Country       | Country Group | variable | Amount |
 |---------|------|---------------|---------------|----------|--------|
 | 1896    | 1    | United States | United States | Gold     | 11     |
