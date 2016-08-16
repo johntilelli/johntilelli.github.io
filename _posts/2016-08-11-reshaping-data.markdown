@@ -4,13 +4,13 @@ title:  "Using R to Reshape Wide Data into Tall Data"
 date:   2016-08-11 00:34:00 -0700
 categories: blog update
 ---
-<p>
+
 This short post shows the process of reshaping data from wide to tall, and the merits of tall data in Tableau. The topic of this post was inspired by a new series called [Makeover Monday](http://www.vizwiz.com/p/makeover-monday-challenges.html). If you use Tableau you have to give it a try - it's a super fun way to improve your visualization skills - especially for a novice like myself. It gives you the opportunity once a week to really think creatively on every step of the visualiztion process.
-</p>
+
 <br>
-<p>
+
 One thing I noticed week to week on Makeover Monday is that the dataset provided was often wide instead of long. For example, take a look at the dataset from Week 32:  [All-Time Summer Olympic Medal Standings](http://www.nbcolympics.com/medals). Each line of data represents the number of medals each country earned each year they participated. There are 8 columns in the dataset. In my mind, the first 4 columns are attributes (or demensions) of the last 4 columns, which I consider metrics (or measures). 
-</p>
+
 <br>
 
 | Edition | Rank | Country       | Country Group | Gold | Silver | Bronze | Total |
@@ -96,9 +96,8 @@ Here is the resulting "tall" dataset. Two columns were added, variable and amoun
 
 <br>
 
-<p>
 Here is my visualization below using the "tall" dataset. It shows 3 visualizations on the same worksheet, two barcharts and a stacked % of total bar chart, with a complex sorting. It wasn't my best work, especially in terms of design, but it shows how much easier tall data is to work with in Tableau. It was incredibly easy to create the table calc - I simply added the "amount" pill to the column pane and created a quick table calculation, percent of total, then added "variable" to the color on the marks pane. I was unable create this same worksheet using the original data. If anyone knows of a way to replicate this in Tableau with the original data please reply/send me a DM on [twitter](https://twitter.com/JohnTilelli). 
-</p>
+
 
 <br>
 
