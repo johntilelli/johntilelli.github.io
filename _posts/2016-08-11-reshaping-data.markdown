@@ -101,6 +101,6 @@ Here is my visualization below using the "tall" dataset. It shows 3 visualizatio
 
 <br>
 
-![Picture of Week 32 Makeover Monday](https://github.com/johntilelli/johntilelli.github.io/blob/master/mmwk32.png)
+![Picture of Week 32 Makeover Monday](https://johntilelli.github.io/mmwk32.png)
 
 
