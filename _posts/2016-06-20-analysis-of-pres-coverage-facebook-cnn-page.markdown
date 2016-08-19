@@ -178,3 +178,23 @@ Other important links:
 
 https://ballotpedia.org/Important_dates_in_the_2016_presidential_race
 
+<br>
+
+<div id="disqus_thread"></div>
+<script>
+    
+    var disqus_config = function () {
+        this.page.url = 'http://johntilelli.com/blog/update/2016/06/20/analysis-of-pres-coverage-facebook-cnn-page.html';
+        this.page.identifier = '/2016-06-20-analysis-of-pres-coverage-facebook-cnn-page'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//www-johntilelli-com.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
