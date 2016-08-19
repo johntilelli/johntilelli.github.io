@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Log
+title: About
 permalink: /about/
 ---
 
