@@ -3,6 +3,7 @@ layout: post
 title:  "Using R to Reshape Wide Data into Tall Data"
 date:   2016-08-11 00:34:00 -0700
 categories: blog update
+tags: [R, Tableau]
 ---
 
 This short post shows the process of reshaping data from wide to tall, and the merits of tall data in Tableau. The topic of this post was inspired by a new series called [Makeover Monday](http://www.vizwiz.com/p/makeover-monday-challenges.html). If you use Tableau you have to give it a try - it's a super fun way to improve your visualization skills - especially for a novice like myself. It gives you the opportunity once a week to really think creatively on every step of the visualiztion process.
