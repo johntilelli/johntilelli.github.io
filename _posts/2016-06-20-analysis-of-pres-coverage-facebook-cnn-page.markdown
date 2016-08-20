@@ -3,6 +3,7 @@ layout: post
 title:  "Analysis of Presidential Election Coverage on CNN Facebook Page"
 date:   2016-06-20 00:34:00 -0700
 categories: blog update
+tags: [Facebook API, Python, Tableau]
 ---
 
 Inspired by python code that grabs page and group post data from Facebook. (Link to Github)[https://github.com/minimaxir/facebook-page-post-scraper]
