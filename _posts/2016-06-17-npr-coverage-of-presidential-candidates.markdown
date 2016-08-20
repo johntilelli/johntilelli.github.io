@@ -3,6 +3,7 @@ layout: post
 title:  "NPR Coverage of Presidential Candidates"
 date:   2016-06-17 00:34:00 -0700
 categories: blog update
+tags: [NPR API, Python, Tableau]
 ---
 
 {% include tableau1.html %}
