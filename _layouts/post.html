@@ -11,7 +11,10 @@ layout: default
       </time>
       {% if page.tags %} | 
       {% for tag in page.tags %}
+<!--
         <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+-->
+        <span class="post-tag">{{ tag }}</span>
       {% endfor %}
       {% endif %}
       {% if page.author %} • 
