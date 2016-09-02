@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Twitter Streaming API: Hello World"
-date:   2018-08-24 00:34:00 -0700
+date:   2016-08-24 00:34:00 -0700
 categories: blog update
 tags: [Twitter API, Python]
 ---
