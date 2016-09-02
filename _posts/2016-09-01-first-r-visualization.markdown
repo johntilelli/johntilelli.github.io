@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First visualization using R: Daily Volume of Pronto Bike Share in 2015"
-date:   2018-08-24 00:34:00 -0700
+date:   2016-09-01 00:34:00 -0700
 categories: blog update
 tags: [R, Data Visualization]
 ---
