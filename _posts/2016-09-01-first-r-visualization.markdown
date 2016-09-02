@@ -6,7 +6,7 @@ categories: blog update
 tags: [R, Data Visualization]
 ---
 
-<b> Intro: </b>
+<b> Intro: </b> <br>
 <br>
 This post is the first of a series in which I’ll be applying some concepts from a new book called Business Intelligence with R by [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Bike Share in Seattle. I consider the book to a more of toolset from a very intelligent, experienced data scientist/statistician. I highly recommend purchasing the book. It is great for your average analyst that wants to learn more about R and how it can be used in every step of the BI reporting process, from importing the data, to cleaning it, to exploring it, and the different ways you’ll end up using it. 
 <br>
