@@ -12,6 +12,7 @@ tags: [R, Data Visualization]
 <b> The visualization: </b>
 <p> For this very simple first visualization, I’ll be using some concepts from the cleaning and prepping section, as well as the trends and time section. I’m hoping that the graph is fairly intuitive. </p>
 
+![Picture of Week 32 Makeover Monday](http://johntilelli.com/first_graph_in_R.png)
 
 <b> The code: </b>
 
