@@ -12,12 +12,13 @@ tags: [R, Data Visualization]
 <b> The visualization: </b>
 <p> For this very simple first visualization, I’ll be using some concepts from the cleaning and prepping section, as well as the trends and time section. I’m hoping that the graph is fairly intuitive. </p>
 
+
 <b> The code: </b>
 
 {% highlight python %}
 
 require(lubridate) #do we need this for as.Date?
-require(dplyr) #to group
+require(dplyr) #to group our days for the frequency table
 require(ggplot2) #to graph
 setwd("/Users/Magic/Documents/Projects/Bike Share Seattle/open_data_year_one")
 list.files()
@@ -53,38 +54,6 @@ total_use_plot
 <p>I think the graph, as simple as it is, does a good job at explaining what it set out to do – display volume of the bike share program in Seattle over time. </p>
 
 
-
-{% highlight python %}
-
-require(lubridate) #do we need this for as.Date?
-require(dplyr) #to group
-require(ggplot2) #to graph
-setwd("/Users/Magic/Documents/Projects/Bike Share Seattle/open_data_year_one")
-list.files()
-#load all trip data
-tripdata = read.table("2015_trip_data.csv", header=T, quote="\"",sep=",")
-#https://www.prontocycleshare.com/datachallenge
-  #aggregate data daily to make visualizing easier
-    #count of trips
-    #average distance
-    #sum of distance traveled
-    #number of bikes used
-summary(tripdata)
-#convert tripdata$stoptime to ymd date
-tripdata$date = as.Date(tripdata$stoptime, format="%m/%d/%Y")
-#create table with frequency by day
-daily_trips = count(tripdata, date)
-#group by day
-daily_trips_group = group_by(daily_trips, date)
-#plot
-total_use_plot = ggplot(daily_trips_group, aes(date,n))+
-  geom_line(col="blue", lwd=1, alpha = .3)+
-  labs(x="Date",y="Number of Rides")+
-  ggtitle("Daily Usage of Pronto Bike Share")
-#view
-total_use_plot
-
-{% endhighlight %}
 
 <br>
 
