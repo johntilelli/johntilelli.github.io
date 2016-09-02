@@ -10,9 +10,10 @@ tags: [R, Data Visualization]
 
 
 This post is the first of a series in which I’ll be applying some concepts from a new book called Business Intelligence with R by [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Bike Share in Seattle. I consider the book to a more of toolset from a very intelligent, experienced data scientist/statistician. I highly recommend purchasing the book. It is great for your average analyst that wants to learn more about R and how it can be used in every step of the BI reporting process, from importing the data, to cleaning it, to exploring it, and the different ways you’ll end up using it. 
-<br>
+
 <b> The visualization: </b>
-<p> For this very simple first visualization, I’ll be using some concepts from the cleaning and prepping section, as well as the trends and time section. I’m hoping that the graph is fairly intuitive. </p>
+
+For this very simple first visualization, I’ll be using some concepts from the cleaning and prepping section, as well as the trends and time section. I’m hoping that the graph is fairly intuitive. 
 
 ![Picture of Week 32 Makeover Monday](http://johntilelli.com/first_graph_in_R.png)
 
@@ -55,7 +56,8 @@ total_use_plot
 The data comes from the [Data Challenge](https://www.prontocycleshare.com/datachallenge) from a Bike Share Service called Pronto. The winners of last year’s contest are amazing - the entries are definitely worth checking out.
 
 <b> Conclusion: </b>
-<p>I think the graph, as simple as it is, does a good job at explaining what it set out to do – display volume of the bike share program in Seattle over time. There are clearly a lot of improvements in the analysis of the bikeshare program in Seattle - for example, correlation with weather patterns/seasons, breakdown of volume or average time spent riding by weekday, etc. But hey, you have to start somewhere right? </p>
+
+I think the graph, as simple as it is, does a good job at explaining what it set out to do – display volume of the bike share program in Seattle over time. There are clearly a lot of improvements in the analysis of the bikeshare program in Seattle - for example, correlation with weather patterns/seasons, breakdown of volume or average time spent riding by weekday, etc. But hey, you have to start somewhere right? 
 
 
 
