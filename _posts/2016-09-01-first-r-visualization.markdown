@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "First visualization using R"
+title:  "First visualization using R: Daily Volume of Pronto Bike Share in 2015"
 date:   2018-08-24 00:34:00 -0700
 categories: blog update
 tags: [R, Data Visualization]
 ---
 
 <b> Intro: </b>
-<p> This post is the first of a series in which I’ll be applying some concepts from a new book called Business Intelligence with R by Rmadillo(link) to a data set called Pronto(link). I consider the book to a more of toolset from a very intelligent, experienced data scientist/statistician. I highly recommend purchasing the book. It is great for your average analyst that wants to learn more about R and how it can be used in every step of the BI reporting process, from importing the data, to cleaning it, to exploring it, and the different ways you’ll end up using it. </p>
+<p> This post is the first of a series in which I’ll be applying some concepts from a new book called Business Intelligence with R by [Rmadillo](https://twitter.com/healthstatsdude) to a data set called Pronto(link). I consider the book to a more of toolset from a very intelligent, experienced data scientist/statistician. I highly recommend purchasing the book. It is great for your average analyst that wants to learn more about R and how it can be used in every step of the BI reporting process, from importing the data, to cleaning it, to exploring it, and the different ways you’ll end up using it. </p>
 
 <b> The visualization: </b>
 <p> For this very simple first visualization, I’ll be using some concepts from the cleaning and prepping section, as well as the trends and time section. I’m hoping that the graph is fairly intuitive. </p>
@@ -52,7 +52,7 @@ total_use_plot
 <p> The data comes from a data challenge from a Bike Share Service called Pronto. They winners of last year’s contest are amazing. It will be a long time before I reach their level of expertise, but you have to start somewhere right? </p>
 
 <b> Conclusion: </b>
-<p>I think the graph, as simple as it is, does a good job at explaining what it set out to do – display volume of the bike share program in Seattle over time. </p>
+<p>I think the graph, as simple as it is, does a good job at explaining what it set out to do – display volume of the bike share program in Seattle over time. There are clearly a lot of improvements in the analysis of the bikeshare program in Seattle - for example, correlation with weather patterns/seasons, breakdown of volume or average time spent riding by weekday, etc. But hey, you have to start somewhere right? </p>
 
 
 
