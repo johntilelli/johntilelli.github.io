@@ -8,7 +8,7 @@ tags: [R, Data Visualization]
 
 <b> Intro: </b>
 
-This is the first post in a series in which I’ll be applying concepts from <i>Business Intelligence with R by</i> [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Cycle Share program in Seattle. I consider the book to be more of a tool set from an experienced and talented data scientist/statistician. I highly recommend it for the average analyst who wants to learn more about R and how it can be used throughout the BI reporting process—from importing, cleaning, and exploring data to the different ways you’ll end up using it.
+This is the first post in a series in which I’ll be applying concepts from <i>Business Intelligence with R</i> by [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Cycle Share program in Seattle. I consider the book to be more of a tool set from an experienced and talented data scientist/statistician. I highly recommend it for the average analyst who wants to learn more about R and how it can be used throughout the BI reporting process—from importing, cleaning, and exploring data to the different ways you’ll end up using it.
 
 <b> The visualization: </b>
 
