@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First visualization using R: Daily Volume of Pronto Bike Share in 2015"
+title:  "First Visualization Using R: Daily Volume of Pronto Cycle Share in 2015"
 date:   2016-09-01 00:34:00 -0700
 categories: blog update
 tags: [R, Data Visualization]
@@ -8,12 +8,11 @@ tags: [R, Data Visualization]
 
 <b> Intro: </b>
 
-
-This post is the first of a series in which I’ll be applying some concepts from a new book called Business Intelligence with R by [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Bike Share in Seattle. I consider the book to a more of toolset from a very intelligent, experienced data scientist/statistician. I highly recommend purchasing the book. It is great for your average analyst that wants to learn more about R and how it can be used in every step of the BI reporting process, from importing the data, to cleaning it, to exploring it, and the different ways you’ll end up using it. 
+This is the first post in a series in which I’ll be applying concepts from <i>Business Intelligence with R by</i> [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Cycle Share program in Seattle. I consider the book to be more of a tool set from an experienced and talented data scientist/statistician. I highly recommend it for the average analyst who wants to learn more about R and how it can be used throughout the BI reporting process—from importing, cleaning, and exploring data to the different ways you’ll end up using it.
 
 <b> The visualization: </b>
 
-For this very simple first visualization, I’ll be using some concepts from the cleaning and prepping section, as well as the trends and time section. I’m hoping that the graph is fairly intuitive. 
+For my first visualization, I used concepts from the book’s cleaning and prepping section and the trends and time section to create a simple graph. My goal was for it to be fairly intuitive. 
 
 ![Picture of Week 32 Makeover Monday](http://johntilelli.com/first_graph_in_R.png)
 
@@ -52,12 +51,11 @@ total_use_plot
 {% endhighlight %}
 
 <b> The data: </b>
-
-The data comes from the [Data Challenge](https://www.prontocycleshare.com/datachallenge) from a Bike Share Service called Pronto. The winners of last year’s contest are amazing - the entries are definitely worth checking out.
+The data comes from the [Pronto Data Challenge](https://www.prontocycleshare.com/datachallenge). The winners’ entries are amazing and definitely worth checking out.
 
 <b> Conclusion: </b>
 
-I think the graph, as simple as it is, does a good job at explaining what it set out to do – display volume of the bike share program in Seattle over time. There are clearly a lot of improvements in the analysis of the bikeshare program in Seattle - for example, correlation with weather patterns/seasons, breakdown of volume or average time spent riding by weekday, etc. But hey, you have to start somewhere right? 
+As simple as the graph is, it does a good job achieving what I set out to do: display the volume of the bike sharing program over time. There are clearly a lot of improvements I could make to my analysis of the bike sharing program, such as the correlation with weather patterns and seasons, breakdown of volume, or average time spent riding by day of week. But hey, you have to start somewhere, right?
 
 
 
