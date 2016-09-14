@@ -28,11 +28,6 @@ list.files()
 #load all trip data
 tripdata = read.table("2015_trip_data.csv", header=T, quote="\"",sep=",")
 #https://www.prontocycleshare.com/datachallenge
-  #aggregate data daily to make visualizing easier
-    #count of trips
-    #average distance
-    #sum of distance traveled
-    #number of bikes used
 summary(tripdata)
 #convert tripdata$stoptime to ymd date
 tripdata$date = as.Date(tripdata$stoptime, format="%m/%d/%Y")
