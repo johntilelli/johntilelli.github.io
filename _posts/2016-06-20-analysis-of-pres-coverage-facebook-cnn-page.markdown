@@ -9,7 +9,7 @@ tags: [Facebook API, Python, Tableau]
 Inspired by python code that grabs page and group post data from Facebook. (Link to Github)[https://github.com/minimaxir/facebook-page-post-scraper]
 
 
-{% include tableau3.html %}
+{% include tableau2.html %}
 
 {% highlight python %}
 import urllib2
