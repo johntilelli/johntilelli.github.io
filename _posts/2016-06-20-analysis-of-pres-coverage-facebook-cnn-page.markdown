@@ -8,7 +8,7 @@ tags: [Facebook API, Python, Tableau]
 
 
 
-The data from this visualization comes from this (github repository)[https://github.com/minimaxir/facebook-page-post-scraper]
+The data from this visualization comes from this github (repository)[https://github.com/minimaxir/facebook-page-post-scraper]
 
 
 
