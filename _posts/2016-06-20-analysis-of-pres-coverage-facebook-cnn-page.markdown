@@ -6,6 +6,8 @@ categories: blog update
 tags: [Facebook API, Python, Tableau]
 ---
 
+The data from this visualization comes from this (github repository)[https://github.com/minimaxir/facebook-page-post-scraper]
+
 {% include tableau2.html %}
 
 {% highlight python %}
