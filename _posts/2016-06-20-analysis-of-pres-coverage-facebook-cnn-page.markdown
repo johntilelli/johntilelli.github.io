@@ -6,16 +6,16 @@ categories: blog update
 tags: [Facebook API, Python, Tableau]
 ---
 
-
+<b> Intro: </b>
 
 The data from this visualization comes from this github (repository)[https://github.com/minimaxir/facebook-page-post-scraper]
 
 
-
+<b> Visualization: </b>
 
 {% include tableau2.html %}
 
-
+<b> Code: </b>
 
 {% highlight python %}
 import urllib2
