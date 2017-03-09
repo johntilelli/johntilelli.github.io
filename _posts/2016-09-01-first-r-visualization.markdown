@@ -10,10 +10,6 @@ tags: [R, Data Visualization]
 
 This is the first post in a series in which I’ll be applying concepts from <i>Business Intelligence with R</i> by [Rmadillo](https://twitter.com/healthstatsdude) to a data set from the Pronto Cycle Share program in Seattle. I highly recommend the book for the average analyst who wants to learn more about R and how it can be used throughout the BI reporting process— from importing and cleaning to exploring and actually analyzing your data.
 
-<b> The visualization: </b>
-
-For my first visualization, I used concepts from the book’s cleaning and prepping section and the trends and time section to create a simple graph. My goal was for it to be fairly intuitive. 
-
 ![Picture of Week 32 Makeover Monday](http://johntilelli.com/first_graph_in_R.png)
 
 <b> The code: </b>
