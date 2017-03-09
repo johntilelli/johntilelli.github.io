@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Visualization Using R: Daily Volume of Pronto Cycle Share in 2015"
+title:  "Daily Volume of Pronto Cycle Share in 2015"
 date:   2016-09-01 00:34:00 -0700
 categories: blog update
 tags: [R, Data Visualization]
@@ -47,11 +47,6 @@ total_use_plot
 
 <b> The data: </b>
 The data comes from the [Pronto Data Challenge](https://www.prontocycleshare.com/datachallenge). The winners’ entries are amazing and definitely worth checking out.
-
-<b> Conclusion: </b>
-
-As simple as the graph is, it does a good job achieving what I set out to do: display the volume of the bike sharing program over time. There are clearly a lot of improvements I could make to my analysis of the bike sharing program, such as the correlation with weather patterns and seasons, breakdown of volume, or average time spent riding by day of week. But hey, you have to start somewhere, right?
-
 
 
 <br>
