@@ -9,8 +9,13 @@ tags: [R, Data Visualization]
 https://collegescorecard.ed.gov/data/
 
 1.	Project Definition 
+
+Dataset includes school and student demographics, degrees awarded by subject area as well as financial information including average degree cost by income bracket, student tuition and scholarships, repayment rates, and post-college average earnings.
+
+
 2.	Data Collection
-3.	Data Exploration
+
+Start by placing all data in a SQLite db to easily query.
 
 {% highlight python %}
 
@@ -62,7 +67,10 @@ runsql("SELECT COUNT(*) FROM MAIN")
 
 dbDisconnect(db)
 
-{% end highlight %}
+{% endhighlight %}
+
+
+3.	Data Exploration
 
 4.	Data Modeling
 5.	Evaluation Model
