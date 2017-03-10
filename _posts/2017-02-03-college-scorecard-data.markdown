@@ -12,6 +12,8 @@ https://collegescorecard.ed.gov/data/
 2.	Data Collection
 3.	Data Exploration
 
+{% highlight python %}
+
 #set working directory
 getwd()
 setwd("/Users/Magic/Documents/Introduction to Data Science/Project")
@@ -59,6 +61,8 @@ sqltbl = head(res,10)
 runsql("SELECT COUNT(*) FROM MAIN")
 
 dbDisconnect(db)
+
+{% end highlight %}
 
 4.	Data Modeling
 5.	Evaluation Model
